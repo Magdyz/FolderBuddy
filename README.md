@@ -10,7 +10,7 @@ Before you start go ahead and open the file in any text editor. Change the names
 
 ## Edit the simple code
 
-All you need to do is change names for sub-folders as clear in the instructions
+All you need to do is change names for "sub-folders" as clear in the instructions
 
 The code asks for the main folder name everytime as this could change but if you prefer to have the same folder name everytime and change subfolders use this code
 
@@ -23,25 +23,16 @@ instead of
 To change sub-folders, add name between brackets
 
 ``` 
-subfolder1 = "CHANGE-SUBFOLDER-NAME1"
-subfolder2 = "raw pictures"
-subfolder3 = "Archives"
+myFolders = ["subfolder1", "subfolder2", "subfolder3", "subfolder4", "subfolder5", "My NEW SUBFOLDER"]
 
 ```
 
-To add more subfolders, add this on top with the other subfolder variables
+To add more or remove subfolders
 
 ```
-subfolder16 = "brand new sub-folder"
-```
-
-and add these two lines under the other lines in the function starting def. Don't change the spacing. And replace `subfolder` number with your new `subfolder16`
+myFolders = ["subfolder1", "subfolder2", "subfolder3", "subfolder4", "subfolder5", "My NEW SUBFOLDER", "My NEW SUBFOLDER2"]
 
 ```
-#	os.mkdir(f"{folderName}/{subfolder16}")
-#	print( "++ " + folderName + "/" + subfolder16 + ' is created!')   
-```
-
 
 ## Run the program
 
