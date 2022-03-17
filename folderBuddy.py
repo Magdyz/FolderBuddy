@@ -6,7 +6,7 @@ folderName = input("Type folder name: \n")                                # Prom
 # folderName = "CHANGE THIS TEXT BETWEEN BRACKETS WITH FOLDER NAME"       # uncomment if you want the same foldername all the time
 
 
-# change Subfolder names to the desired subfolders you want. You can add or remove just dont remove the " " 
+# change Subfolder names to the desired subfolders you want. You can add or remove just don't remove the " " 
 
 myFolders = ["subfolder1", "subfolder2", "subfolder3", "subfolder4", "subfolder5", "subfolder6"]
 
