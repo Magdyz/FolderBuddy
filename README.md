@@ -20,6 +20,26 @@ instead of
 
 ```folderName = input("Type folder name: \n")```
 
+You could add the folder name as an argument when running the script. Uncomment the following code for `foldername`
+
+```
+import sys                                    # uncomment if you want the foldername to be inputed as an argument 
+folderName = " ".join(sys.argv[1:])           # uncomment if you want the foldername to be inputed as an argument 
+
+```
+This will make the script and foldername run in one command. 
+
+```
+python3 folderBuddy.py test folder num 1
+
+```
+or
+
+```
+python folderBuddy.py test folder num 1
+
+```
+
 To change sub-folders, add name between brackets
 
 ``` 
