@@ -8,6 +8,8 @@ Download the Zip file and extract it where you want new projects to be created.
 
 Before you start go ahead and open the file in any text editor. Change the names of the sub-folder that will need to be created. 
 
+-----------------------------------------------------------------------------------------
+
 ## Edit the simple code
 
 All you need to do is change names for "sub-folders" as clear in the instructions
@@ -20,6 +22,8 @@ instead of
 
 ```folderName = input("Type folder name: \n")```
 
+## Folder name as an argument
+
 You could add the folder name as an argument when running the script. Uncomment the following code for `foldername`
 
 ```
@@ -27,6 +31,7 @@ import sys                                    # uncomment if you want the folder
 folderName = " ".join(sys.argv[1:])           # uncomment if you want the foldername to be inputed as an argument 
 
 ```
+
 This will make the script and foldername run in one command. 
 
 ```
@@ -39,6 +44,9 @@ or
 python folderBuddy.py test folder num 1
 
 ```
+-----------------------------------------------------------------------------------------
+## Chnage/add sub-folders
+
 
 To change sub-folders, add name between brackets
 
@@ -53,6 +61,8 @@ To add more or remove subfolders
 myFolders = ["subfolder1", "subfolder2", "subfolder3", "subfolder4", "subfolder5", "My NEW SUBFOLDER", "My NEW SUBFOLDER2"]
 
 ```
+
+-----------------------------------------------------------------------------------------
 
 ## Run the program
 
