@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import os
 
 ##### folder name that will be inputed everytime as a question
