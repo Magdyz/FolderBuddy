@@ -83,11 +83,21 @@ I have found this to be very tricky on Mac but the best solution was by doing th
 
 ### Troubleshooting
 
-This will work but I have found the the program will create the new folder/Sub-folders in the main directory not in the current folder. Maybe it was only my case but if this happens. Add the following code to the top of you script:
+- This will work but I have found the the program will create the new folder/Sub-folders in the main directory not in the current folder. Maybe it was only my case but if this happens. Add the following code to the top of you script:
 
 ```
 PATH = "/Users/Jim/Desktop/projects/" # copy the path for your folder or where you want your new folder to be
 folderName = PATH+input("Type folder name: \n")     
+```
+
+- If you get an error with trying to double click or run from terminal `./folderBuddy.command`. Make sure you have this in the beginning of your code. It won't run other wise.
+```
+#!/usr/bin/python3
+```
+or 
+
+``` 
+#!/usr/bin/python   #if python3 is the only Python on you computer
 ```
 
 Best of luck,
