@@ -74,3 +74,21 @@ or
 python folderBuddy.py
 ```
 
+## Run the program by double clicking it on Mac
+
+I have found this to be very tricky on Mac but the best solution was by doing the following
+
+- changing file name to `folderBuddy.command` or `folderBuddy.tool` instead of the normal `.py`
+- inputing the following code in the terminal to change permission to excute code `chmod +x folderBuddy.command`
+
+### Troubleshooting
+
+This will work but I have found the the program will create the new folder/Sub-folders in the main directory not in the current folder. Maybe it was only my case but if this happens. Add the following code to the top of you script:
+
+```
+PATH = "/Users/Jim/Desktop/projects/" # copy the path for your folder or where you want your new folder to be
+folderName = PATH+input("Type folder name: \n")     
+```
+
+Best of luck,
+MG
