@@ -8,11 +8,11 @@ import time
 
 ##### change Subfolder names to the desired subfolders you want. You can add or remove just don't remove the " " 
 
-myFolders = ["Project", "Music", "Footage", "Export", "Documents"]
+myFolders = ["subfolder1", "subfolder2", "subfolder3", "subfolder4", "subfolder5", "subfolder6"]
 
 ##### change Path names to the desired folder
 
-PATH = "/Users/magdy.gaber/Documents/ShufiMafi/"
+PATH = "/Users/john/Documents/"
 
 
 def styling():
